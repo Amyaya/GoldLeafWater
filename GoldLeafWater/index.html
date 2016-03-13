@@ -13,28 +13,25 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="ytmode.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-      <dv class="wrap">
+      <div class="wrap">
         <header role="banner">
             <nav role="navigation" class="navbar navbar-static-top navbar-default navposi">
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="GoldLeaf" width="150"> </a>
+                        <a class="navbar-brand" href="index.html"></a>
+                        <img class="logoimg" src="img/logo.png" alt="GoldLeaf" width=195px>
                     </div>
                     <div class="navbar-collapse">
                         <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-star"></span>Product</a> </li>
-                        <li><a href="#"><span class="glyphicon glyphicon-list"></span>Company </a> </li>
+                        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-star"></span>  Product</a> </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-list"></span>  Company </a> </li>
                         </ul>
                     </div>
                 </div>
@@ -71,26 +68,6 @@
         </div>
         </header>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2>Welcome!</h2>
-                    <p>We are innocent person.......</p>
-                    <p><a class="btn btn-primary pull-right" href="#">See our Slogan</a></p>
-                </div>
-                <div class="col-sm-4">
-                    <h2>Welcome!</h2>
-                    <p>We are innocent person.......</p>
-                    <p><a class="btn btn-primary pull-right" href="#">See our Slogan</a></p>
-                </div>
-                <div class="col-sm-4">
-                    <h2>Welcome!</h2>
-                    <p>We are innocent person.......</p>
-                    <p><a class="btn btn-primary pull-right" href="#">See our Slogan</a></p>
-                </div>
-            </div>
-        </div>
-
         <div id="benefits" class="container wrap-main-benefit">
             <div>
                 <img class="img-responsive pic-impt" src="pic/watersource.jpg">
@@ -116,7 +93,7 @@
                         </span>
                     </a>
                 </li>
-                <li data-panel="100% pure&natural">
+                <li data-panel="100% pure">
                     <a href="#">
                         <span class="icon">
                             <img src="pic/heart-full.png">
@@ -137,93 +114,27 @@
                     </a>
                 </li>
             </ul>
-            <div class="arrow" style="background-position:500px 50%;"></div>
+            <div class="arrow" style="background-position:70px 50%;"></div>
             <div class="copy">
-                <div data-panel="Water Source">
+                <div data-panel="Water Source" class="active">
                     <p>Our premium, Canadian 100% natural spring water source is located on a protected site in the Oak Ridges Moraine approximately  115 km northeast of Toronto.
                         A never-ending supply of naturally-filtered, pure Canadian spring water
                         Under the Oak Ridges Moraine Conservation Act, our source and the surrounding area are protected, ensuring its ongoing ecological and hydrological integrity.  This means our pure, natural spring water will continue to be the highest quality.</p>
                 </div>
                 <div data-panel="Balanced PH">
-                    <p>At a pH of 7.35 ppm, our water is perfectly balanced.</p>
+                    <p>At a pH of 7.35 pm, our water is perfectly balanced.</p>
                 </div>
-                <div data-panel="100% pure&natural">
+                <div data-panel="100% pure">
                     <p>The pure, clean taste of our water comes from the naturally-occurring combination of minerals.  However, minerals do not just add to its taste, they have a huge impact on one’s health and also the water’s pH level.</p>
                 </div>
                 <div data-panel="Guaranteed Quality">
-                    <p>The pure, clean taste of our water comes from the naturally-occurring combination of minerals.  However, minerals do not just add to its taste, they have a huge impact on one’s health and also the water’s pH level.</p>
+                    <p>Bottled at source,Our spring water originates just a few hundred feet from the bottling facility.</br>
+                        To ensure consistent high quality, we perform daily in-house testing of our well and throughout the bottling and packing process.</br>
+                        With respect to regulations, in Canada bottled water is regulated under the Food and Drugs Act and Regulations as a food product.
+                    </p>
                 </div>
             </div>
-
-
         </div>
-
-        <div class="container wrap-advan">
-                  <div class="row">
-                      <div class="col-sm-4">
-                          <div class="wrap-pic">
-                              <img class="img-responsive" src="pic/watersource.jpg">
-                          </div>
-                      </div>
-                      <div class="col-sm-8">
-                          <div class="wrap-text">
-                              <h1>Water Source</h1>
-                              <p>Our premium, Canadian 100% natural spring water source is located on a protected site in the Oak Ridges Moraine approximately  115 km northeast of Toronto.
-                                  A never-ending supply of naturally-filtered, pure Canadian spring water
-                                  Under the Oak Ridges Moraine Conservation Act, our source and the surrounding area are protected, ensuring its ongoing ecological and hydrological integrity.  This means our pure, natural spring water will continue to be the highest quality.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-sm-8">
-                          <div class="wrap-text">
-                              <h1>Our perfect PH</h1>
-                              <p>At a pH of 7.35 ppm, our water is perfectly balanced.</p>
-                          </div>
-                      </div>
-                      <div class="col-sm-4">
-                          <div class="wrap-pic">
-                              <img class="img-responsive" src="apple-touch-icon.png">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-sm-4">
-                          <div class="wrap-pic">
-                          <img class="img-responsive" src="apple-touch-icon.png">
-                          </div>
-                      </div>
-                      <div class="col-sm-8">
-                          <div class="wrap-text">
-                          <h1>100% pure&natural</h1>
-                          <p>The pure, clean taste of our water comes from the naturally-occurring combination of minerals.  However, minerals do not just add to its taste, they have a huge impact on one’s health and also the water’s pH level.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-sm-8">
-                          <div class="wrap-text">
-                          <h1>Guaranteed Quality</h1>
-                          <h5>Bottled at source</h5>
-                          <p>Our spring water originates just a few hundred feet from the bottling facility.</p>
-                          <h5>Tests</h5>
-                          <p>To ensure consistent high quality, we perform daily in-house testing of our well and throughout the bottling and packing process.</p>
-                          <p>Outside lab tests are also performed on a monthly basis (E. coli, HPC, Total Coliform).</p>
-                          <p>The surrounding environment is also regularly monitored to ensure the ongoing purity of our water supply.</p>
-                          <h5>Detection</h5>
-                          <p>With respect to regulations, in Canada bottled water is regulated under the Food and Drugs Act and Regulations as a food product.</p>
-                          </div>
-                      </div>
-                      <div class="col-sm-4">
-                          <div class="wrap-pic">
-                          <img class="img-responsive" src="apple-touch-icon.png">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-
-
 
         <main role="main">
             <h1>Main Heading</h1>
@@ -237,7 +148,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
+        <script src="js/ytfunction.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
