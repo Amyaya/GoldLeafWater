@@ -5,6 +5,28 @@
     position:relative;
 
 }
+.main-pic{
+    max-width:100%;
+}
+#water{
+    position:absolute;
+    max-width: 43%;
+}
+.header-wrap{
+    position:relative;
+    height:550px;
+    width:100%;
+}
+.header-bottledwater{
+    position:absolute;
+    float:left;
+    margin-left: 10%;
+    z-index: 1;
+}
+.header-background{
+    position:absolute;
+    z-index: 0;
+}
 .wrap-pic{
     margin:10px 20px;
     border-style:solid;
@@ -30,6 +52,7 @@
 }
 .wrap-main-benefit{
     text-align: center;
+    clear:right;
 }
 .gradient{
     margin:30px auto 0 auto;

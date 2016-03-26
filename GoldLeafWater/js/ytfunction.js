@@ -12,6 +12,12 @@ $("#benefits ul li a").mousemove(function(){
         d=c+$(this).width()/2-37;
         $("#benefits .arrow").css("background-position",d+"px center");
 })
+function bottleRemove(){
+    $("#water").animate({left:'30%'},"slow");
+}
+
+
+
 /*function(b){
     var c=b.parent().offset().left-a(".features.tablet").offset().left-15,
         d=c+b.width()/2-22;
