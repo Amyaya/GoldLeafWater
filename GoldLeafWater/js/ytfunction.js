@@ -13,7 +13,7 @@ $("#benefits ul li a").mousemove(function(){
         $("#benefits .arrow").css("background-position",d+"px center");
 })
 function bottleRemove(){
-    $("#water").animate({left:'30%'},"slow");
+    $("#water").animate({right:'+=220px',opacity:'1'},"slow");
 }
 
 
