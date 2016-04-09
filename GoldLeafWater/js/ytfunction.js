@@ -9,11 +9,13 @@ $("#benefits ul li a").mousemove(function(){
         $(this).parent().parent().addClass("active");
         $('.copy div[data-panel="'+c+'"]').addClass("active");
     var c=$(this).offset().left-15;
-        d=c+$(this).width()/2-37;
+        d=c+$(this).width()/2-25;
         $("#benefits .arrow").css("background-position",d+"px center");
 })
 function bottleRemove(){
     $("#water").animate({right:'+=220px',opacity:'1'},"slow");
+    $("#text1").fadeIn("slow");
+    $("#text2").fadeIn("slow");
 }
 
 

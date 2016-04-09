@@ -17,7 +17,7 @@
 }
 .header-wrap{
     position:relative;
-    height:550px;
+    height:700px;
     width:100%;
 }
 .header-bottledwater{
@@ -29,6 +29,22 @@
 .header-background{
     position:absolute;
     z-index: 0;
+}
+.slogan {
+    margin-bottom: 30px;
+    background: -webkit-linear-gradient(left, #e3b02f,#c9302c,#e3b02f,#c9302c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.wrap-slogan{
+    top:10%;
+    left:5%;
+    text-align: right;
+}
+.wrap-slogan h2{
+    color: white;
+    text-transform: uppercase;
 }
 .wrap-pic{
     margin:10px 20px;
@@ -42,9 +58,6 @@
 .size-pic{
     width:400px;
     height:300px;
-}
-.navposi{
-
 }
 .pic-impt{
     margin:50px auto 30px auto;
