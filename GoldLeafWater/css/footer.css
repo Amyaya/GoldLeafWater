@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+footer{
+	padding-top:24px;
+	padding-bottom:4px;
+	font-family: "Georgia", "Times New Roman", serif;
+	background:#000;
+	color:#f2d680;
+	font-style:italic;
+	}
+.contact{
+	font-size:36px;	
+	}	
+.communication{
+	list-style-type:none;
+	font-size:20px;
+	}
+#weixin{
+	width:130px;
+	height:130px;
+	}
+.weixin{
+	font-size:36px;	
+	}			
+

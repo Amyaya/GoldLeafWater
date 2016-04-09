@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background:#A0A0A4;
+	}
+img.logoimg{
+	margin-top:-5px;
+	}		
+#world{
+	width:100%;	
+	}
+.companyInfo{
+	margin-top:50px;
+	margin-bottom:70px;
+	text-align:center;
+	color:#e2ba3f;	
+	}
+.info{
+	margin-top:3px;
+	margin-bottom:3px;
+	font-family: "Georgia", "Times New Roman", serif;
+	font-size:20px;
+	font-style:italic;
+	padding:0;	
+	}	
+.bottom{
+	font-famliy:"方正舒体";
+	color:#f2d680;		
+	}		

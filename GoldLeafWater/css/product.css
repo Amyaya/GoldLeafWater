@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background:#A0A0A4;
+	}
+img.logoimg{
+	margin-top:-5px;
+	}	
+#btn1{
+	background-color:transparent;
+	border:#f2d680 solid 2px;
+	}
+#btn1:hover{
+	background-color:#f2d680;
+	}
+	
+#btn2{
+	margin-left:80px;
+	background-color:transparent;
+	border:#f2d680 solid 2px;
+}
+#btn2:hover{
+	background-color:#f2d680;
+	}	
+	
+
+.mlabel{
+	color:#f2d680;
+	font-family:"方正舒体";
+	font-size:24px;	
+	}
+.bottle{
+	font-family:"华文彩云";
+	}
+	
+#btn3{
+	border:#f2d680 solid 2px;
+	background-color:transparent;
+	}
+#btn3:hover{
+	background-color:#f2d680;
+	}
+
+.jumbotron.gray{
+	background:#A0A0A4;;	
+	}
+	
+#btn4{
+	border:#f2d680 solid 2px;
+	background-color:transparent;
+	}
+#btn4:hover{
+	background-color:#f2d680;
+	}
+	
+#btn5{
+	border:#f2d680 solid 2px;
+	background-color:transparent;
+	}
+#btn5:hover{
+	background-color:#f2d680;
+	}
+	
+.story{
+	margin:auto;
+	text-align:center;
+	color:#e2ba3f;	
+	}
+p.story{
+	margin-top:3px;
+	margin-bottom:3px;
+	font-family: "Georgia", "Times New Roman", serif;
+	font-size:20px;
+	font-style:italic;
+	padding:0;
+	}
+p.story.last{
+	margin-bottom:15px;	
+	}		
+.bottom{
+	font-famliy:"方正舒体";
+	color:#f2d680;		
+	}
+	
+	
+#btn6{
+	display:none;
+	background-color:transparent;
+	border:#f2d680 solid 2px;	
+	}
+#btn6:hover{
+	background-color:#f2d680;
+	}
+.text1{
+	display:none;
+	color:#f2d680;
+	font-family:"方正舒体";
+	font-size:24px;	
+	}
+
+.text2{
+	display:none;
+	color:#f2d680;
+	font-family:"方正舒体";
+	font-size:24px;	
+	}
+#btn7{
+	display:none;
+	background-color:transparent;
+	border:#f2d680 solid 2px;	
+	}
+#btn7:hover{
+	background-color:#f2d680;
+	}
+
+.text3{
+	display:none;
+	color:#f2d680;
+	font-family:"方正舒体";
+	font-size:24px;	
+	}
+#btn8{
+	display:none;
+	background-color:transparent;
+	border:#f2d680 solid 2px;	
+	}
+#btn8:hover{
+	background-color:#f2d680;
+	}
+
+.text4{
+	display:none;
+	color:#f2d680;
+	font-family:"方正舒体";
+	font-size:24px;	
+	}
+#btn9{
+	display:none;
+	background-color:transparent;
+	border:#f2d680 solid 2px;	
+	}
+#btn9:hover{
+	background-color:#f2d680;
+	}																				

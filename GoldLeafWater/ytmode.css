@@ -11,8 +11,8 @@ h2{
     text-transform: uppercase;
     color: white;
 }
-p{
-    color: #f2d680;
+img.logoimg{
+    margin-top:-5px;
 }
 .main-pic{
     max-width:100%;
@@ -79,9 +79,6 @@ p{
 .main-benefit-text{
     position:relative;
 }
-.logoimg{
-    margin-top: 6px;
-}
 .copy{
     float: left;
     width:50%;
@@ -97,7 +94,8 @@ p{
 }
 .copy div p{
     text-align: center;
-
+    color: #f2d680;
+    font-size: 20px;
 }
 .copy div.active{
     opacity:1;
