@@ -10,6 +10,8 @@ $(document).ready(function(){
     $("#benefits .arrow").css("background-position",b+"px center");
 
     $("#benefits ul li a").mousemove(function(){
+        $(".wrap-text").css("color","black");
+        $(this).find(".wrap-text").css("color","#f2d680");
         var c=$(this).parent().attr("data-panel");
         $("#benefits li").removeClass("active");
         $("#benefits .copy div").removeClass("active");

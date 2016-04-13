@@ -125,7 +125,8 @@ img.logoimg{
     height:50%;
     max-width: 100%;
     display: block;
-    color: #f2d680;
+    color: black;
+    text-decoration : none;
 }
 #benefits li a span{
     text-align: center;
